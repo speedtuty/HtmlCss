@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+.container-fluid .navbar-brand{
+    display: flex;
+    float: left;
+    justify-content: space-evenly;
+    color: rgb(151, 155, 158);
+}
+.container-fluid .navbar-nav{
+    padding-left: 60%;
+    margin: 20px;
+}
+h5{
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+}
+.container1{
+    text-align: center;
+    padding: 20px;
+    top: 20%;
+    position: relative;
+}
+.container{
+    color: #fff;
+    text-align: center;
+    display:flex;
+    padding: 30px;
+    text-decoration: none;
+}
+button{
+    position: absolute;
+    left: 45%;
+    background-color: yellow;
+    border: none;
+    color: black;
+    align-items: center;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.Enquire{
+    border-radius: 10px;
+}
+.nav-icons {
+    display: flex;
+    align-items: center;
+    margin: 0px 8px;
+}
+.nav-logo {
+    margin: 0px 10px;
+}
+.nav-logo a {
+    color: #fff !important;
+}
+.nav-logo img {
+    height: 30px;
+}

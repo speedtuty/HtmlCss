@@ -1,0 +1,20 @@
+h1{
+    color:aquamarine;
+    margin-bottom:10px;
+}
+.nav {
+margin-top: 10px;
+list-style:none;
+padding-left:0;
+}
+.nav li{
+    display:inline-block;
+    font-size: 14px;
+
+}
+.nav a{
+    color:white;
+    background-color: blueviolet;
+    padding: 5px;border-radius: 2px;
+    text-decoration: none;
+}
